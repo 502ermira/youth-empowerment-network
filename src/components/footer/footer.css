@@ -1,0 +1,106 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  max-width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap:42px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color:#f0f0f0;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  cursor: pointer;
+}
+
+.social-icon {
+  font-size: 2.2rem;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+.join-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.join-description {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color:#f0f0f0;
+}
+@media screen and (max-width:900px){
+  .footer-title {
+    font-size: 1.3rem;
+  }
+  
+  .footer-description {
+    font-size: 0.89rem;
+    margin-bottom: 15px;
+  }
+  .join-title {
+    font-size: 1.3rem;
+  }
+  
+  .join-description {
+    font-size: 0.89rem;
+  }
+  .contact-icon {
+    font-size: 1.3rem;
+  }
+  
+  .social-icon {
+    font-size: 1.9rem;
+    margin-top:5px;
+  }
+  .contact-item p{
+    font-size: 0.87rem;
+  }
+}
+
+@media screen and (max-width:600px){
+  .footer-container {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .social-icon {
+    font-size: 1.9rem;
+    padding-bottom: 50px;
+
+  }
+}

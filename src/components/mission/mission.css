@@ -1,0 +1,257 @@
+.mission-section {
+    padding: 65px 0;
+    background-color: var(--color-first-bg);
+    margin-top: -13px;
+}
+  
+.mission-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.mission-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.image-container {
+    flex: 1; 
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+.mission-content {
+    flex: 1; 
+    padding-top:80px;
+}
+.image-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -50px; 
+}
+.image-grid-item img {
+    max-width: 285px; 
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.image-grid-item:nth-child(1) img {
+    transform: translate(80px, 50px); 
+}
+
+.image-grid-item:nth-child(2) img {
+    transform: translate(320px, 0px); 
+}
+
+.image-grid-item:nth-child(3) img {
+    transform: translate(80px, -50px); 
+}
+
+.image-grid-item:nth-child(4) img {
+    transform: translate(320px, -100px);
+}
+
+.image-grid-item:nth-child(5) img {
+    transform: translate(80px, -150px); 
+}
+
+
+.mission-content {
+    max-width: 400px;
+    padding-right: 50px;
+}
+
+  .mission-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .mission-description {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  .mission-icon-description p{
+    font-size: 14px;
+    
+  }
+  .mission-icon-description h4{
+    font-size: 22px;
+    color: #333;
+  }
+
+  .mission-icon-description{
+    padding-left: 20px;
+  }
+  
+  .mission-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 0 40px 0px;
+  }
+  
+  .mission-icon-img {
+    width: 86px; 
+    height: auto; 
+    filter: saturation(50%);
+  }
+
+  @media screen and  (min-width: 1000px) and (max-width: 1150px) {
+  .image-grid-item img {
+    max-width: 240px; 
+}
+
+.image-grid-item:nth-child(2) img {
+  transform: translate(295px, 0px); 
+}
+
+.image-grid-item:nth-child(4) img {
+  transform: translate(295px, -100px);
+}
+.mission-content {
+  max-width: 380px;
+  padding-right: 40px;
+}
+  }
+
+  @media (min-width: 836px) and (max-width: 1001px) {
+    .image-grid-item img {
+      max-width: 200px; 
+  }
+  
+  .image-grid-item:nth-child(2) img {
+    transform: translate(255px, 0px); 
+  }
+  
+  .image-grid-item:nth-child(4) img {
+    transform: translate(255px, -100px);
+  }
+  .mission-content {
+    max-width: 295px;
+    padding-right: 40px;
+  }
+  .title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .mission-icon-description p{
+    font-size: 13.5px;
+    
+  }
+  .mission-icon-description h4{
+    font-size: 19px;
+  }
+  
+  .mission-icon {
+    padding: 0 0 25px 0px;
+  }
+  
+  .mission-icon-img {
+    width: 77px; 
+  }
+  .mission-content {
+    padding-top:20px;
+    padding-right: 50px;
+}
+.image-grid{
+  margin-top: 20px;
+}
+  }
+
+  
+
+  @media screen and (max-width: 837px) {
+  .mission-row {
+    flex-direction: column-reverse; 
+    align-items: center; 
+  }
+  
+  .mission-content {
+    padding-left: 50px;
+    width:auto;
+  }
+  .title {
+    font-size: 35px;
+  }
+  
+  .description {
+    font-size: 15px;
+  }
+
+  .mission-icon-description p{
+    font-size: 14px;
+    
+  }
+  .mission-icon-description h4{
+    font-size: 18px;
+  }
+  .mission-icon-img {
+    width: 77px; 
+  }
+  .image-grid-item img {
+    max-width: 250px; 
+  }
+  .image-grid-item:nth-child(1) img {
+    transform: translate(-100px, 50px); 
+}
+.image-grid-item:nth-child(2) img {
+    transform: translate(110px, 0px); 
+}
+
+.image-grid-item:nth-child(3) img {
+    transform: translate(-100px, -50px); 
+}
+
+.image-grid-item:nth-child(4) img {
+    transform: translate(110px, -100px);
+}
+
+.image-grid-item:nth-child(5) img {
+    transform: translate(-100px, -150px); 
+}
+  }
+
+  @media screen and (max-width: 520px) {
+    .image-grid-item img {
+      max-width: 175px; 
+    }
+    .image-grid-item:nth-child(1) img {
+      transform: translate(-70px, 50px); 
+  }
+  .image-grid-item:nth-child(2) img {
+      transform: translate(70px, 0px); 
+  }
+  
+  .image-grid-item:nth-child(3) img {
+      transform: translate(-70px, -50px); 
+  }
+  
+  .image-grid-item:nth-child(4) img {
+      transform: translate(70px, -100px);
+  }
+  
+  .image-grid-item:nth-child(5) img {
+      transform: translate(-70px, -150px); 
+  }
+    }
+ 
+  
+ 
+

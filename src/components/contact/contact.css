@@ -1,0 +1,143 @@
+.contact-section {
+  background-color: var(--color-third-bg);
+  padding: 80px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.location {
+  flex: 1;
+  padding-right: 120px;
+  padding-bottom: 23px;
+}
+.submit-btn{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.location-title {
+  font-size: 2rem;
+  margin-bottom: 13px;
+}
+
+.location-info {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  padding-left:20px;
+  color:#666;
+}
+.location-info span{
+  color:var(--color-title);
+  margin-right: 10px;
+  background-color: #c5cac780;
+  padding: 5px ;
+  border-radius: 10%;
+  padding-bottom: 1px;
+}
+
+.contact-form {
+  flex: 1;
+  background-color: #fcfcfc;
+  padding:23px 12px 30px 40px;
+  border: 1px solid #77b18d5d;
+  margin-top:-23px;
+  border-radius: 10px;
+}
+
+.form-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-input,
+.form-textarea {
+  width: 90%;
+  padding: 13px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  border: 1px solid #51ff0013;
+  border-radius: 8px;
+  background-color:var(--color-second-bg);
+}
+
+.form-textarea {
+  resize: none;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--color-description); 
+}
+form {
+  max-width: auto;
+}
+
+@media screen and (max-width:1050px){
+  .contact-form {
+    padding:20px 30px 20px 30px;
+  }
+  .form-input,
+  .form-textarea {
+  padding: 9.5px;
+  font-size: 1rem;
+}
+.location {
+ padding-right: 70px;
+}
+}
+@media screen and (max-width:900px){
+  .contact-container {
+    display: block;
+    justify-content: center;
+    padding-bottom: 23px;
+  }
+  .contact-info {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    padding-bottom: 45px;
+  }
+  .location-info {
+    font-size: 1rem;
+    padding-left:0px;
+  }
+  .location-info span{
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width:720px){
+  .contact-info {
+    display: inline;
+  }
+  .location {
+    padding-left:auto;
+    padding-right:auto;
+    padding-bottom: 20px;
+  }
+  .location-info span{
+    margin-right: 10px;
+  }
+  .location-info {
+    font-size: 1rem;
+    padding-left:0px;
+  }
+  .contact-form {
+    padding:23px 20px 30px 20px;
+    margin-top:33px;
+    max-width: fit-content;
+  }
+  .location-title{
+    font-size: 28px;
+  }
+}

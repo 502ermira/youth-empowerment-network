@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CRoboto:400%7CRubik:100,400,700');
+
+
+html, body {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    --font-family: 'Poppins', sans-serif;
+    
+    --color-first-bg: #fafafa;
+    --color-second-bg: #f3f3f3;
+    --color-third-bg: #f9f9f9;
+    --color-title: #333;
+    --color-description: #666;
+    --color-button: #05b549;
+
+  }
